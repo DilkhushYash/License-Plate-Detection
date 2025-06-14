@@ -1,4 +1,5 @@
-🔍 License Plate Detection using YOLOv8 and OCR
+*🔍 License Plate Detection using YOLOv8 and OCR* 
+
 
 This project aims to detect license plates from vehicle images using a YOLOv8 deep learning model and extract the text from the plates using Optical Character Recognition (OCR). It was submitted to the IEEE Info Pixel competition and secured 3rd rank 🥉.
 
@@ -26,8 +27,8 @@ Matplotlib / Seaborn	Visualization (optional)
 
 🗂️ Project Structure
 graphql
-Copy
-Edit
+
+
 📦license-plate-detection
  ┣ 📁dataset/
  ┣ 📁runs/                 # YOLO training logs & weights
@@ -57,24 +58,17 @@ Before & After Detection + OCR
 ⚙️ How to Run
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/DilkhushYash/license-plate-detection.git
 cd license-plate-detection
+
+
 Install dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Download best.pt model and place it in the root directory.
 
 Run detection:
 
-bash
-Copy
-Edit
 python detect.py --source path/to/image_or_video
 🔍 Future Improvements
 Add real-time detection from webcam or CCTV feed
